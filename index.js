@@ -133,18 +133,18 @@ const test = async (req, res) => {
 
             });
             console.log(asset);
-/*
+
             promises.push(axios({
               method: 'post',
               url: ocm.hostname + ocm.path,
               data: asset,
               headers: ocm.headers 
             }));
-*/
+
           }); //end foreach loopio data
-//          Promise.all(promises).then(function(results) {
+          Promise.all(promises).then(function(results) {
             res.status(201).send("Created");
-//          });
+          });
         }
         else
         {
