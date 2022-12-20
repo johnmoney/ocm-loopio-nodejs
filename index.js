@@ -26,8 +26,8 @@ const loopio = {
   'hostname': 'https://api.int01.loopio.com',
   'oauthPath': '/oauth2/access_token',
   'path': '/data/v2/libraryEntries',
-  'client': 'bGrPhCPgNxhyJ5HavVZWa/Qjxyfaw8bKjHREwNSQKzg=',
-  'secret': '54xJVsibYWRUkLR7o/4m5DQJWDXrco529bgwAO9hQQg=',
+  'client': '',
+  'secret': '',
   'filter': [
     {
       'key': '"language"',
