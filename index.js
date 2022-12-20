@@ -132,7 +132,7 @@ const test = async (req, res) => {
               }
 
             });
-            console.log(asset);
+            //console.log(asset);
 
             promises.push(axios({
               method: 'post',
